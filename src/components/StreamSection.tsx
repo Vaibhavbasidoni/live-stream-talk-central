@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Talk, Mic, MicOff } from 'lucide-react';
+import { MessageSquare, Mic, MicOff } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const StreamSection: React.FC = () => {
@@ -30,7 +30,7 @@ const StreamSection: React.FC = () => {
         
         <div className="flex gap-4">
           <button className="talk-button">
-            <Talk className="w-5 h-5" />
+            <MessageSquare className="w-5 h-5" />
             <span>Talk</span>
           </button>
           
